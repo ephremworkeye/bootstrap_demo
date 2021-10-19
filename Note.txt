@@ -1,0 +1,8 @@
+Bootstrap 5 new features
+    Bootstrap 5 has dropped jquery
+    forms have been revamped
+    Right-To_Left(RTL) support added
+    new utility classes (positioning, font size, border radius etc)
+    Minor changes to some components and grid(jumbotron gone)
+    Bootstrap icons
+    two new components - offcanvas @ accordion

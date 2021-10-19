@@ -7,16 +7,70 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container my-5">
-        <h2>normal container</h2>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum nostrum quis odio illum minus laboriosam alias deserunt voluptatibus aut! Provident tempore, ipsum consequuntur tempora voluptate, dignissimos beatae numquam iusto ullam consectetur, ad id. Beatae atque, quam maiores nam quia error sequi quibusdam eveniet autem. Atque eaque aliquam labore expedita architecto.
+    
+    <div class="container-lg my-5">
+        <h2>basic grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="bg-primary p-5 text-white">col1</div>
+            </div>
+            <div class="col">
+                <div class="bg-primary p-5 text-white">col2</div>
+            </div>
+            <div class="col">
+                <div class="bg-primary p-5 text-white">col3</div>
+            </div>
+        </div>
     </div>
 
-    <div class="container-fluid">
-        <h1>fluid container</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatem veritatis dolores vero soluta rem quod, magnam corporis, laborum saepe inventore perspiciatis cum repudiandae eligendi recusandae aliquam incidunt quibusdam officia odit dolor enim nisi architecto! Odio quibusdam ut ratione ipsam quos autem vitae laudantium quas aperiam rem, suscipit unde non!</p>
-    </div>
     
+    <div class="container-lg my-5">
+        <h2>column width</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="bg-primary p-5 text-white">col1</div>
+            </div>
+            <div class="col-3">
+                <div class="bg-primary p-5 text-white">col2</div>
+            </div>
+            <div class="col-3">
+                <div class="bg-primary p-5 text-white">col3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>responsive column widths</h2>
+        <div class="row">
+            <div class="col-sm-4 col-lg-6">
+                <div class="bg-primary p-5 text-white">col1</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="bg-primary p-5 text-white">col2</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="bg-primary p-5 text-white">col3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>justifiying columns</h2>
+        <!-- we can move to start, center, end and between -->
+        <div class="row justify-content-between">
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-white">col-1</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-white">col-2</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-white">col-3</div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
